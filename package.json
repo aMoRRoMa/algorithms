@@ -1,0 +1,20 @@
+{
+  "name": "algorithms",
+  "version": "1.0.0",
+  "description": "Learning/playing with algorithms",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aMoRRoMa/algorithms.git"
+  },
+  "author": "https://github.com/aMoRRoMa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aMoRRoMa/algorithms/issues"
+  },
+  "homepage": "https://github.com/aMoRRoMa/algorithms#readme"
+}
