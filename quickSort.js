@@ -9,7 +9,7 @@ const mockData = [
 const quickSort = (array) => {
   if (array.length < 2) return array;
 
-  const base = array[0];
+  const base = array[Math.floor((0 + array.length - 1) / 2)];
   const less = [];
   const greater = [];
   
