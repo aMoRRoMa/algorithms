@@ -8,6 +8,7 @@ const max = require('./max');
 const recursiveMax = require('./recursiveMax');
 const recursiveBinarySearch = require('./recursiveBinarySearch');
 const quickSort = require('./quickSort');
+const breadthFirstSearch = require('./breadthFirstSearch');
 
 // dumbSearch();
 // binarySearch();
@@ -18,4 +19,5 @@ const quickSort = require('./quickSort');
 // max();
 // recursiveMax();
 // recursiveBinarySearch();
-quickSort();
+// quickSort();
+breadthFirstSearch();
