@@ -1,4 +1,4 @@
-const reader = require('./reader');
+const reader = require('../utils/reader');
 
 const mockData = [5, 3, 6, 2, 10];
 
