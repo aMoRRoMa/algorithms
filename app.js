@@ -1,3 +1,4 @@
+// algorithms
 const dumbSearch = require('./functions/dumbSearch');
 const binarySearch = require('./functions/binarySearch');
 const selectionSort = require('./functions/selectionSort');
@@ -10,6 +11,8 @@ const recursiveBinarySearch = require('./functions/recursiveBinarySearch');
 const quickSort = require('./functions/quickSort');
 const breadthFirstSearch = require('./functions/breadthFirstSearch');
 const dijkstrasSearch = require('./functions/dijkstrasSearch');
+// tasks
+const rocksAndTreasures = require('./tasks/rocksAndTreasures');
 
 // dumbSearch();
 // binarySearch();
@@ -22,4 +25,6 @@ const dijkstrasSearch = require('./functions/dijkstrasSearch');
 // recursiveBinarySearch();
 // quickSort();
 // breadthFirstSearch();
-dijkstrasSearch();
+// dijkstrasSearch();
+
+rocksAndTreasures();
