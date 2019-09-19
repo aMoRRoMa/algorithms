@@ -8,13 +8,14 @@ const recursiveCount = require('./functions/recursiveCount');
 const max = require('./functions/max');
 const recursiveMax = require('./functions/recursiveMax');
 const recursiveBinarySearch = require('./functions/recursiveBinarySearch');
-const quickSort = require('./functions/quickSort');
+const { run: quickSort } = require('./functions/quickSort');
 const breadthFirstSearch = require('./functions/breadthFirstSearch');
 const dijkstrasSearch = require('./functions/dijkstrasSearch');
 // tasks
 const rocksAndTreasures = require('./tasks/rocksAndTreasures');
 const anagrams = require('./tasks/anagrams');
 const generationBracketSequences = require('./tasks/generationBracketSequences');
+const mergingLists = require('./tasks/mergingLists');
 
 // dumbSearch();
 // binarySearch();
@@ -31,4 +32,5 @@ const generationBracketSequences = require('./tasks/generationBracketSequences')
 
 // rocksAndTreasures();
 // anagrams();
-generationBracketSequences();
+// generationBracketSequences();
+mergingLists();
