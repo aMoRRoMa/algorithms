@@ -14,6 +14,7 @@ const dijkstrasSearch = require('./functions/dijkstrasSearch');
 // tasks
 const rocksAndTreasures = require('./tasks/rocksAndTreasures');
 const anagrams = require('./tasks/anagrams');
+const generationBracketSequences = require('./tasks/generationBracketSequences');
 
 // dumbSearch();
 // binarySearch();
@@ -29,4 +30,5 @@ const anagrams = require('./tasks/anagrams');
 // dijkstrasSearch();
 
 // rocksAndTreasures();
-anagrams();
+// anagrams();
+generationBracketSequences();
