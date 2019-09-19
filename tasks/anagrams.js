@@ -1,6 +1,8 @@
 const mockData = [
   { first: 'qiu', second: 'iuq', answer: true },
   { first: 'zprl', second: 'zprc', answer: false },
+  { first: 'zpr', second: 'zprc', answer: false },
+  { first: 'qwertyuiop', second: 'poiuytrewq', answer: true },
 ];
 
 const dictFromString = (string) => {
@@ -14,8 +16,12 @@ const dictFromString = (string) => {
 };
 
 const isSameDictionaries = (dict1, dict2) => {
-  if (Object.keys(dict1).length !== Object.keys(dict2).length) return false;
-  return Object.keys(dict1).reduce(
+  const dict1Keys = Object.keys(dict1);
+  const dict2Keys = Object.keys(dict2);
+ 
+  if (dict1Keys.length !== dict2Keys.length) return false;
+  
+  return dict1Keys.reduce(
     (memo, key) => dict1[key] === dict2[key],
     false,
   );
