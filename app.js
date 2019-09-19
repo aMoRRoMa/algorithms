@@ -13,6 +13,7 @@ const breadthFirstSearch = require('./functions/breadthFirstSearch');
 const dijkstrasSearch = require('./functions/dijkstrasSearch');
 // tasks
 const rocksAndTreasures = require('./tasks/rocksAndTreasures');
+const anagrams = require('./tasks/anagrams');
 
 // dumbSearch();
 // binarySearch();
@@ -27,4 +28,5 @@ const rocksAndTreasures = require('./tasks/rocksAndTreasures');
 // breadthFirstSearch();
 // dijkstrasSearch();
 
-rocksAndTreasures();
+// rocksAndTreasures();
+anagrams();
