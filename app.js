@@ -16,6 +16,7 @@ const rocksAndTreasures = require('./tasks/rocksAndTreasures');
 const anagrams = require('./tasks/anagrams');
 const generationBracketSequences = require('./tasks/generationBracketSequences');
 const mergingLists = require('./tasks/mergingLists');
+const sockMerchant = require('./tasks/sockMerchant');
 
 // dumbSearch();
 // binarySearch();
@@ -33,4 +34,5 @@ const mergingLists = require('./tasks/mergingLists');
 // rocksAndTreasures();
 // anagrams();
 // generationBracketSequences();
-mergingLists();
+// mergingLists();
+sockMerchant();
