@@ -18,6 +18,7 @@ const generationBracketSequences = require('./tasks/generationBracketSequences')
 const mergingLists = require('./tasks/mergingLists');
 const sockMerchant = require('./tasks/sockMerchant');
 const countingValleys = require('./tasks/countingValleys');
+const jumpingOnTheClouds = require('./tasks/jumpingOnTheClouds');
 
 // dumbSearch();
 // binarySearch();
@@ -37,4 +38,5 @@ const countingValleys = require('./tasks/countingValleys');
 // generationBracketSequences();
 // mergingLists();
 // sockMerchant();
-countingValleys();
+// countingValleys();
+jumpingOnTheClouds();
