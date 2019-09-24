@@ -17,6 +17,7 @@ const anagrams = require('./tasks/anagrams');
 const generationBracketSequences = require('./tasks/generationBracketSequences');
 const mergingLists = require('./tasks/mergingLists');
 const sockMerchant = require('./tasks/sockMerchant');
+const countingValleys = require('./tasks/countingValleys');
 
 // dumbSearch();
 // binarySearch();
@@ -35,4 +36,5 @@ const sockMerchant = require('./tasks/sockMerchant');
 // anagrams();
 // generationBracketSequences();
 // mergingLists();
-sockMerchant();
+// sockMerchant();
+countingValleys();
