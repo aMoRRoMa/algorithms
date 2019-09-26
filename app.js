@@ -20,6 +20,7 @@ const sockMerchant = require('./tasks/sockMerchant');
 const countingValleys = require('./tasks/countingValleys');
 const jumpingOnTheClouds = require('./tasks/jumpingOnTheClouds');
 const repeatedString = require('./tasks/repeatedString');
+const palindrome = require('./tasks/palindrome');
 
 // dumbSearch();
 // binarySearch();
@@ -41,4 +42,5 @@ const repeatedString = require('./tasks/repeatedString');
 // sockMerchant();
 // countingValleys();
 // jumpingOnTheClouds();
-repeatedString();
+// repeatedString();
+palindrome();
