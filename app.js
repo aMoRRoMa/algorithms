@@ -19,6 +19,7 @@ const mergingLists = require('./tasks/mergingLists');
 const sockMerchant = require('./tasks/sockMerchant');
 const countingValleys = require('./tasks/countingValleys');
 const jumpingOnTheClouds = require('./tasks/jumpingOnTheClouds');
+const repeatedString = require('./tasks/repeatedString');
 
 // dumbSearch();
 // binarySearch();
@@ -39,4 +40,5 @@ const jumpingOnTheClouds = require('./tasks/jumpingOnTheClouds');
 // mergingLists();
 // sockMerchant();
 // countingValleys();
-jumpingOnTheClouds();
+// jumpingOnTheClouds();
+repeatedString();
