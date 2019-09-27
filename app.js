@@ -21,6 +21,8 @@ const countingValleys = require('./tasks/countingValleys');
 const jumpingOnTheClouds = require('./tasks/jumpingOnTheClouds');
 const repeatedString = require('./tasks/repeatedString');
 const palindrome = require('./tasks/palindrome');
+const compressionIntegerArray = require('./tasks/compressionIntegerArray');
+const centuryFromYear = require('./tasks/centuryFromYear');
 
 // dumbSearch();
 // binarySearch();
@@ -43,4 +45,6 @@ const palindrome = require('./tasks/palindrome');
 // countingValleys();
 // jumpingOnTheClouds();
 // repeatedString();
-palindrome();
+// palindrome();
+// compressionIntegerArray();
+centuryFromYear();
