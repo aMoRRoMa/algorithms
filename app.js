@@ -23,6 +23,7 @@ const repeatedString = require('./tasks/repeatedString');
 const palindrome = require('./tasks/palindrome');
 const compressionIntegerArray = require('./tasks/compressionIntegerArray');
 const centuryFromYear = require('./tasks/centuryFromYear');
+const parenthesisSequence = require('./tasks/parenthesisSequence');
 
 // dumbSearch();
 // binarySearch();
@@ -47,4 +48,5 @@ const centuryFromYear = require('./tasks/centuryFromYear');
 // repeatedString();
 // palindrome();
 // compressionIntegerArray();
-centuryFromYear();
+// centuryFromYear();
+parenthesisSequence();
