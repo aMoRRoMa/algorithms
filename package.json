@@ -4,8 +4,9 @@
   "description": "Learning/playing with algorithms",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm test",
+    "test": "mocha './**/**/*.spec.js'",
+    "test:watch": "mocha --watch './**/**/*.spec.js'"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/aMoRRoMa/algorithms/issues"
   },
-  "homepage": "https://github.com/aMoRRoMa/algorithms#readme"
+  "homepage": "https://github.com/aMoRRoMa/algorithms#readme",
+  "dependencies": {
+    "mocha": "^6.2.1"
+  }
 }

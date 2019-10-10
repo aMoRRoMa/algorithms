@@ -1,4 +1,4 @@
-const reader = require('../utils/reader');
+const reader = require('../../utils/reader');
 
 const mockData = [
   [12, 34, 23, 45, 57],
@@ -24,11 +24,5 @@ const binarySearch = (list, query) => {
   
   return null;
 };
-const onInputFinish = (data) => {
-  const [list, query] = data;
-  const answer = binarySearch(list, query);
-  console.log(`answer is ${answer}`);
-};
 
-// module.exports = () => reader(onInputFinish);
-module.exports = () => onInputFinish(mockData);
+module.exports = binarySearch;
