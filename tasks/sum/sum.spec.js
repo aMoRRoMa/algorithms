@@ -11,12 +11,12 @@ describe('Sum', () => {
   mockData.forEach(
     ({ array, answer }) => {
       it(`for ${JSON.stringify(array)} answer is ${answer}`, () => {
-        const acc = sum();
-        let result;
-        for (let i = 0; i < array.length; i++) {
-          result = acc(array[i]);
-        }
-        assert.strictEqual(result, answer);
+        assert.equal(eval(
+          array.reduce(
+            (memo, item) => `${memo}(${item})`,
+            'sum',
+          ),
+        ), answer);
       });
     }
   );
