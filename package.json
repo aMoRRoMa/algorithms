@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/aMoRRoMa/algorithms#readme",
   "dependencies": {
-    "mocha": "^6.2.1"
+    "mocha": "^10.2.0"
   }
 }
